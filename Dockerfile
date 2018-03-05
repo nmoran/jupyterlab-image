@@ -13,6 +13,6 @@ RUN apt-get -y install curl
 # required to get good performance from theano (used by pymc3)
 RUN apt-get -y install python-dev g++
 # some utilities to make life easier
-RUN apt-get -y install vim htop less
+RUN apt-get -y install vim htop less tmux
 
 ENTRYPOINT bash start.sh
