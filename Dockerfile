@@ -5,7 +5,6 @@ COPY ./ /
 
 # Install python package and dependencies
 RUN pip install -r requirement.txt
-RUN python setup.py install
 
 # setup crontab
 RUN apt-get update
